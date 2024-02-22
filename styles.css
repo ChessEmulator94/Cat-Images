@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(216, 187, 216);
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#pageTitle {
+  font-size: 6rem;
+  font-family: "Courier New", Courier, monospace; /* Typewriter style font */
+  background-color: #808080; /* Grey background */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin-bottom: 3%;
+  border-style: solid;
+}
+
+.button {
+  background-color: #808080; /* Grey */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #595959; /* Darker Grey */
+}
+
+#catImage {
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+  position: relative; /* Ensure position:relative for absolute positioning within it */
+  border-color: black;
+  border-style: solid;
+}
+
+#backButton {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace; /* Typewriter style font */
+  font-size: 5rem;
+  width: auto;
+  height: auto;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  margin-right: 3%;
+}
+
+#nextButton {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace; /* Typewriter style font */
+  font-size: 5rem;
+  width: auto;
+  height: auto;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+}
