@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a simple web application that generates random cat images fetched from "The Cat API". Users can navigate through a collection of cat images by clicking on the "Next" and "Back" buttons.
+This is a simple web application that generates random cat images fetched from TheCatAPI (`https://thecatapi.com/`). Users can navigate through a collection of cat images by clicking on the "Next" and "Back" buttons.
 
 ## Files
 
